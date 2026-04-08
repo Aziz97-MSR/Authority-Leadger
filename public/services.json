@@ -1,13 +1,13 @@
 [
     {
         "id":1,
-        "icon" : "fa-solid fa-magnifying-glass",
+        "icon" : "/firsticon.svg",
         "title" : "Precision SEO",
         "description" : "Dominating search results with technical audits and semantic content strategies that rank."
     },
     {
         "id":2,
-        "icon" :"fa-solid fa-pen-to-square",
+        "icon" :"/secondicon.svg",
         "title" : "Content Power",
         "description" : "High-authority editorial pieces that establish your brand as the industry standard."
     },

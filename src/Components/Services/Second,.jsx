@@ -1,12 +1,14 @@
+import { Fade } from "react-awesome-reveal"
 import Hero from "./Hero"
 import Services from "./Services"
 
-const Second = () =>
-{
-    return(
+const Second = () => {
+    return (
         <section className="px-[32px] mt-20 mb-10">
-            <Hero></Hero>
-            <Services></Services>
+            <Fade direction="up">
+                <Hero></Hero>
+                <Services></Services>
+            </Fade>
         </section>
     )
 }

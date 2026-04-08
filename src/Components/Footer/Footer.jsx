@@ -40,7 +40,7 @@ const Footer = () => {
 
             <article className="flex justify-between items-center">
                 <div>
-                    <p>&copy; 2024Authority Ledger. All Right Reserved</p>
+                    <p>&copy; 2024 Authority Ledger. All Right Reserved</p>
                 </div>
                 <div className="flex justify-between items-center gap-[32px]">
                     <p>Privacy Policy</p>
