@@ -3,8 +3,8 @@ import Ratings from "./Ratings"
 const Testmony = () => {
     return (
         <article className="grid grid-cols-1 md:grid-cols-2 gap-x-[32px]">
-            <div>
-                <div>
+            <div className="bg-[#fff] p-[48px] rounded-[8px]">
+                <div className="mb-10">
                     <Ratings></Ratings>
                     <Ratings></Ratings>
                     <Ratings></Ratings>
@@ -12,7 +12,7 @@ const Testmony = () => {
                     <Ratings></Ratings>
                 </div>
                 <div>
-                    <p>
+                    <p className="font-medium text-[24px] mb-10">
                         "The Authority Ledger didn't just give us a
                         strategy; they rebuilt our entire digital
                         presence. Our lead volume has tripled in
@@ -21,17 +21,17 @@ const Testmony = () => {
                 </div>
 
                 <div className="flex gap-x-[16px]">
-                    <div>
-                        <img src="/pix2.jpg"/>
+                    <div className="">
+                        <img className="w-[48px] h-[48px] rounded-[12px]" src="/pix2.jpg"/>
                     </div>
                     <div>
-                        <h4>Marcus Sterling</h4>
-                        <p>CEO, Quantico System</p>
+                        <h4 className="font-semibold text-[16px]">Marcus Sterling</h4>
+                        <p className="font-medium text-[14px] text-[#44474D]">CEO, Quantico System</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
+            <div className="bg-[#fff] p-[48px] rounded-[8px]">
+                <div className="mb-10">
                     <Ratings></Ratings>
                     <Ratings></Ratings>
                     <Ratings></Ratings>
@@ -39,7 +39,7 @@ const Testmony = () => {
                     <Ratings></Ratings>
                 </div>
                 <div>
-                    <p>
+                    <p className="font-medium text-[24px] mb-10">
                         "Their data-driven approach removed
                         the guesswork from our marketing
                         budget. ROI transparency is finally a
@@ -49,11 +49,11 @@ const Testmony = () => {
 
                 <div className="flex gap-x-[16px]">
                     <div>
-                        <img src="/pix3.jpg"/>
+                        <img className="w-[48px] h-[48px] rounded-[12px]" src="/pix3.jpg"/>
                     </div>
                     <div>
-                        <h4>Sarah Chen</h4>
-                        <p>Markting Director, Nova Retail</p>
+                        <h4 className="font-semibold text-[16px]">Sarah Chen</h4>
+                        <p className="font-medium text-[14px] text-[#44474D]">Markting Director, Nova Retail</p>
                     </div>
                 </div>
 
