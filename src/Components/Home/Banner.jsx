@@ -7,7 +7,7 @@ const Banner = () => {
                 <img className="w-[600px] h-[600px]" src="/pix1.jpg" />
             </Bounce>
 
-            <div className="absolute top-0 right-28 p-5 bg-[#fff] rounded-[8px]">
+            <div className="absolute top-0 right-0 lg:right-28 p-5 bg-[#fff] rounded-[8px]">
                 <img src="/floationg.svg"/>
                 <p className="">+142%</p>
                 <p>Monthly ROI</p>
