@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="bg-[#fff] py-[64px] px-[32px]">
-            <article className="my-[48px] grid grid-cols-1 lg:grid-cols-4 lg:gap-[48px]">
+        <footer className="bg-[#fff] py-[16px] py-[64px] px-[16px] md:px-[32px]">
+            <article className="my-[20px] lg:my-[48px] grid grid-cols-1 lg:grid-cols-4 gap-[20px] lg:gap-[48px]">
                 <div>
                     <h2 className="text-[18px] font-semibold mb-5">Authority Ledger</h2>
                     <p className="text-[#64748B] text-[14px] w-[268px] text-[14px]">
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
             </article>
 
-            <article className="mt-[48px] flex justify-between items-center">
+            <article className="mt-[48px] flex flex-col lg:flex-row justify-between items-center">
                 <div>
                     <p className="text-[#64748B] text-[14px]">&copy; 2024 Authority Ledger. All Right Reserved</p>
                 </div>

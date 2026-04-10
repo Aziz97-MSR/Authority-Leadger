@@ -3,7 +3,7 @@ const Service = (props) =>
     const { product } = props
     const { title, description, icon } = product
     return(
-        <div className="bg-[#F2F4F6] shadow-md rounded-[8px] p-10">
+        <div className="bg-[#F2F4F6] shadow-md rounded-[8px] p-5 lg:p-10">
             <div className="mb-10 bg-[#D2E0FE] flex justify-center items-center w-[56px] h-[56px]">
                 <img className="" src={icon}></img>
             </div>

@@ -2,8 +2,8 @@ import Ratings from "./Ratings"
 
 const Testmony = () => {
     return (
-        <article className="grid grid-cols-1 md:grid-cols-2 gap-x-[32px]">
-            <div className="bg-[#fff] p-[48px] rounded-[8px]">
+        <article className="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
+            <div className="bg-[#fff] p-[16px] lg:p-[48px] rounded-[8px]">
                 <div className="mb-10">
                     <Ratings></Ratings>
                     <Ratings></Ratings>
@@ -30,7 +30,7 @@ const Testmony = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#fff] p-[48px] rounded-[8px]">
+            <div className="bg-[#fff] p-[16px] lg:p-[48px] rounded-[8px]">
                 <div className="mb-10">
                     <Ratings></Ratings>
                     <Ratings></Ratings>
