@@ -1,9 +1,9 @@
 import Ratings from "./Ratings"
-
+import {motion} from 'motion/react'
 const Testmony = () => {
     return (
         <article className="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
-            <div className="bg-[#fff] p-[16px] lg:p-[48px] rounded-[8px]">
+            <motion.div className="bg-[#fff] p-[16px] lg:p-[48px] rounded-[8px]" whileHover={{y: -10}}>
                 <div className="mb-10">
                     <Ratings></Ratings>
                     <Ratings></Ratings>
@@ -29,8 +29,8 @@ const Testmony = () => {
                         <p className="font-medium text-[14px] text-[#44474D]">CEO, Quantico System</p>
                     </div>
                 </div>
-            </div>
-            <div className="bg-[#fff] p-[16px] lg:p-[48px] rounded-[8px]">
+            </motion.div>
+            <motion.div className="bg-[#fff] p-[16px] lg:p-[48px] rounded-[8px]"  whileHover={{y: -10}}>
                 <div className="mb-10">
                     <Ratings></Ratings>
                     <Ratings></Ratings>
@@ -57,7 +57,7 @@ const Testmony = () => {
                     </div>
                 </div>
 
-            </div>
+            </motion.div>
 
         </article>)
 }
