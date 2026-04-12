@@ -1,8 +1,8 @@
-import { motion } from 'motion/react'
+
 const Text = () => {
     return (
         <article className="">
-            <motion.div initial={{opacity : 0}} animate={{opacity: 1, transition: {duration: 5}}}>
+            <div initial={{opacity : 0}} animate={{opacity: 1, transition: {duration: 5}}}>
                 <h3 className="text-[#2180FF] text-[12px] mb-5">SCALABLE INTELLIGENCE</h3>
                 <h1 className=" text-[50px] lg:text-[80px]  font-bold mt-10 mb-5">Accelerate <span className="block text-[#2180FF]">Your Growth</span></h1>
                 <p className="mt-[8px] max-w-[576px] text-[20px] text-[#44474D]">
@@ -14,7 +14,7 @@ const Text = () => {
                     <button className="w-[200px] bg-black text-white py-[16px] px-[32px] rounded-[4px] ">Parner With Us </button>
                     <button className="w-[200px] bg-[#ccc]  py-[16px] px-[32px] rounded-[4px]">View Services</button>
                 </div>
-            </motion.div>
+            </div>
 
         </article>
     )

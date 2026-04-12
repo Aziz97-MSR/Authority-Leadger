@@ -2,7 +2,11 @@ import { motion } from 'motion/react'
 const Banner = () => {
     return (
         <div className="relative">
-            <motion.div>
+            <motion.div initial={{ y: -20, x: 10 }} animate={{
+                x: [0, 20, 20, 0, 0],
+                y: [0, 0, 20, 20, 0],
+                rotate: [0, 2, 0, -2, 0], transition: { duration: 3, repeat: Infinity, repeatType: 'reverse', ease:'linear' }
+            }}>
 
                 <img className="w-[600px] h-[600px]" src="/pix1.jpg" />
             </motion.div>
