@@ -14,7 +14,10 @@ const Form = () => {
                     <label className="font-semibold text-[12px] mb-5 text-[#44474D]">Projects Goal</label>
                     <textarea className="contactInput block w-full md: w-[478px] h-[100px]" value="Tell us about your growth targets..."></textarea>
                 </div>
-                <button className="bg-[#000] my-[12px] py-[20px] text-[#fff] w-full md:w-[478px]">Submit Inquiry</button>
+                <button className="bg-[#000] my-[12px] rounded-[4px]  py-[20px] text-[#fff] w-full md:w-[478px] flex justify-center items-center gap-[12px]">
+                    <p className="font-semibold text-[16px]">Submit Inquiry</p>
+                    <p><i class="fa-solid fa-arrow-right w-[16px] h-[16px]"></i></p>
+                </button>
             </form>
         </div>
     )

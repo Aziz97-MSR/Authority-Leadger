@@ -13,9 +13,9 @@ const Banner = () => {
 
 
             <div className="absolute top-0 right-0 lg:right-28 p-5 bg-[#fff] rounded-[8px]">
-                <img src="/floationg.svg" />
-                <p className="">+142%</p>
-                <p>Monthly ROI</p>
+                <img className='w-[25px] h-[25px]' src="/floationg.svg" />
+                <h3 className="text-[24px] font-bold">+142%</h3>
+                <p className='text-[#44474D] text-[12px] font-medium'>Monthly ROI</p>
             </div>
         </div>
     )

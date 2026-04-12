@@ -11,7 +11,7 @@ const Text = () => {
                     <span className="block">revenue.</span>
                 </p>
                 <div className="mt-[16px]  flex gap-[16px]">
-                    <button className="w-[200px] bg-black text-white py-[16px] px-[32px] rounded-[4px] ">Parner With Us </button>
+                    <button className="w-[200px] bg-black text-white py-[16px] px-[32px] rounded-[4px]">Parner With Us <i class="fa-solid fa-arrow-right"></i></button>
                     <button className="w-[200px] bg-[#ccc]  py-[16px] px-[32px] rounded-[4px]">View Services</button>
                 </div>
             </div>
