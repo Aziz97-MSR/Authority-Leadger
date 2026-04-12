@@ -1,3 +1,4 @@
+import { motion } from 'motion/react'
 const Form = () => {
     return (
         <div className="bg-[#fff] px-[40px] pt-[40px] pb-[56px] max-w-[560px]">
@@ -14,10 +15,10 @@ const Form = () => {
                     <label className="font-semibold text-[12px] mb-5 text-[#44474D]">Projects Goal</label>
                     <textarea className="contactInput block w-full md: w-[478px] h-[100px]" value="Tell us about your growth targets..."></textarea>
                 </div>
-                <button className="bg-[#000] my-[12px] rounded-[4px]  py-[20px] text-[#fff] w-full md:w-[478px] flex justify-center items-center gap-[12px]">
+                <motion.button initial={{scaleX:1}} whileHover={{scaleX:1.02}} className="bg-[#000] my-[12px] rounded-[4px]  py-[20px] text-[#fff] w-full md:w-[478px] flex justify-center items-center gap-[12px]">
                     <p className="font-semibold text-[16px]">Submit Inquiry</p>
                     <p><i class="fa-solid fa-arrow-right w-[16px] h-[16px]"></i></p>
-                </button>
+                </motion.button>
             </form>
         </div>
     )
