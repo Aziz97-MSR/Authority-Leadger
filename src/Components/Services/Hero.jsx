@@ -5,8 +5,7 @@ const Hero = () => {
                 Our Core Speciality
             </h2>
             <p>
-                Integrated marketing solutions designed for the modern enterprise, <span className="block">backed by
-                performance metrics.</span>
+                Integrated marketing solutions designed for the modern enterprise, <span className="block">backed by performance metrics.</span>
             </p>
         </article>
     )
